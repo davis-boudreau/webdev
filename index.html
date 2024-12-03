@@ -17,36 +17,49 @@
 </head>
 <body>
     <!-- A semantic element clearly describes its meaning to both the browser and the developer.-->
+    
     <header>
-        <img class="logo" src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service + Rates</a></li>
-                <li><a href="#">Route Info</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">1-902-625-1475</a></li>
-            </ul>
-        </nav>
+        <div class="header-logo-container">
+            <img class="header-logo" src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
+        </div>
+        <div class="header-nav-container">
+            <nav class="header-nav">
+                <a href="#"><button>Home</button></a>
+                <a href="#"><button>Service + Rates</button></a>
+                <a href="#"><button>Route Info</button></a>
+                <a href="#"><button>About</button></a>
+                <a href="#"><button>1-902-625-1475</button></a>
+            </nav>
+        </div>
     </header>
-    <div></div>        
+    <div class="seperator-container">
+        <div class="seperator"></div>        
+    </div>
     <main>
-        <section>
-            <img src="images/hero_image.png" alt="Passengers getting picked up by Driver">
-            <h2>Connecting Communities</h2>
-            <p>Strait Area Transit is dedicated to bridging the gaps between communities in the Strait Area, providing a vital transportation link that fosters connection, accessibility, and economic growth. By offering reliable and affordable door-to-door transportation, we empower residents to access essential services, employment opportunities, and social activities, ultimately enhancing their quality of life. Our community-driven approach ensures that our services are tailored to meet the unique needs of our riders, promoting a sense of belonging and inclusivity throughout the region. By connecting communities, we are building a stronger, more resilient Strait Area, where everyone has the opportunity to thrive.</p>
-            <div>Book your ride</div>
+        <section class="hero-cta-container">
+            <div>
+                <h2>Connecting Communities</h2>
+            </div>
+            <div>
+                <p>Strait Area Transit is dedicated to bridging the gaps between communities in the Strait Area, providing a vital transportation link that fosters connection, accessibility, and economic growth.</p>
+            </div>
+            <div>
+                <button>Book your ride</button>
+            </div>
         </section>
+        <aside class="hero-image-container">
+            <img class="hero-image" src="images/hero_image.png" alt="Passengers getting picked up by Driver">
+        </aside>
     </main>
     <footer>
         <section>
-            <div>
-                <img class="logo" src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
+            <div class="footer-contact">
+                <img src="images/SAT_Logo.svg" alt="Strait Area Transit Home Page">
                 <address>
                     <a href="mailto:webmaster@example.com">Jon Doe</a>
                 </address>
             </div>
-            <div>
+            <div class="footer-sitemap-container">
                 <img class="icons" src="icons/facebook_icon_1.svg" alt="Link to FaceBook Home Page">
                 <img class="icons" src="icons/twitter_logo_1.svg" alt="Link to Twitter X Home Page">
                 <img class="icons" src="icons/instagram_logo.svg" alt="Link to Instagram Home Page">
@@ -54,25 +67,24 @@
                 <img class="icons" src="icons/linked-in_logo_1.svg" alt="Link to Linked-In Home Page">
             </div>
         </section>
-        <section>
-            <h2>SiteMap</h2>
-            <ul>
-                <li>Book a ride</li>
-                <li>Our Story</li>
-                <li>Route Info</li>
-                <li>Service + Rates</li>
-            </ul>
+        <section class="footer-sitemap-container">
+                <div>
+                    <h2>SiteMap</h2>
+                </div>
+                <nav>
+                    <a href="#">Book a ride</a>
+                    <a href="#">Route Info</a>
+                    <a href="#">Service + Rates</a>
+                    <a href="#">About</a>
+                </nav>
         </section>
-            
-        <section>
+        <section class="footer-about">
             <h2>About Strait Area Transit</h2>
             <p>Strait Area Transit is supported by the Town of Port Hawkesbury, Inverness County, Richmond County, and
                 the Province of Nova Scotia’s Department of Communities, Culture and Heritage (CCH).</p>
-        
-        
-            </section>
+        </section>
     
     </footer>
-
+    
 </body>
 </html>

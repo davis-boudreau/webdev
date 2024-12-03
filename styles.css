@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+    font-size: 19px;
+}
+h2 {
+    font-size: 36;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    padding: 16px 16px 16px 16px;
+}
+
+.header-logo-container {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-logo {
+    width: 178px;
+    height: 128px;
+}
+
+.header-nav-container {
+    padding: 16px 16px;
+    width: auto;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* Align Items is a vertical property */
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: auto;
+}
+
+.header-nav button {
+    background-color: #017991;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.seperator-container {
+    padding: 16px;
+}
+.seperator {
+    background-color: #017991;
+    height: 4px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    width: 100%;
+    justify-content: center;
+
+}
+.hero-cta-container {
+    padding: 16px;
+    min-width: 288px;
+    max-width: 696px;
+    justify-items: center;
+    align-items: center;
+}
+
+.hero-image {
+    display: block; /* Removes extra space at the bottom of the image */
+    width: auto; /* Image scales to the container's width */
+    height: auto; /* Maintains the image aspect ratio */
+    padding: 16px;
+    
+    
+}
+
+.footer-sitemap-container
+{
+    
+}
